@@ -191,6 +191,7 @@ if __name__ == '__main__':
         # print(df)
         # Save the DataFrame to an Excel file.
         df.to_excel(f'scrape bazos/bazos_prodam_byt_{current_date}.xlsx', index=False)
+        print(f'Dataset bazos_prodam_byt_{current_date}.xlsx created successfully.')
         # Create a PostgreSQL table with the scraped data.
         BazosScraper.create_postgre_table(current_date, df)
     except ValueError as e:
