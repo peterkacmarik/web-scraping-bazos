@@ -96,3 +96,7 @@ If you want to contact me you can reach me at `peterkacmarik@gmail.com`.
 ## License
 
 This project uses the following license: `MIT`.
+
+**Note:**
+
+This script is for educational purposes only. Be mindful of Daft.ie's terms of service when scraping their website.
